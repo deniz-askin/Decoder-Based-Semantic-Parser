@@ -2,7 +2,7 @@
 
 A Decoder-only Transformer that can be tested on 4 different benchmark semantic parsing datasets (ATIS, GeoQuery, DJANGO, Jobs640). 
 
-The original Code is from https://github.com/tensorflow/docs/blob/master/site/en/tutorials/text/transformer.ipynb
+The original Code is from https://colab.research.google.com/github/dlmacedo/starter-academic/blob/master/content/courses/deeplearning/notebooks/tensorflow/transformer.ipynb
 
 Modifications to the code include:
     
