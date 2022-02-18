@@ -19,4 +19,4 @@ Simply change the pathfiles to the dataset you would like to use in the file and
 # Requirements
 Use the package manager pip to install tensorflow.
 
-pip install tensorflow
+    pip install tensorflow
