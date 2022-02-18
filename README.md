@@ -15,3 +15,8 @@ Modifications to the code include:
     the shuffled train and test sets, and a list of the correct and wrong parses the engine produced.
 
 Simply change the pathfiles to the dataset you would like to use in the file and set the hyperparameters you would like to use.
+
+# Requirements
+Use the package manager pip to install tensorflow.
+
+pip install tensorflow
