@@ -1,4 +1,4 @@
-## Original Code From https://colab.research.google.com/github/dlmacedo/starter-academic/blob/master/content/courses/deeplearning/notebooks/tensorflow/transformer.ipynb
+## Original code from https://colab.research.google.com/github/dlmacedo/starter-academic/blob/master/content/courses/deeplearning/notebooks/tensorflow/transformer.ipynb
 
 ##Copyright 2019 The TensorFlow Authors.
 #@title Licensed under the Apache License, Version 2.0 (the "License");
@@ -674,7 +674,7 @@ num_layers = 1
 num_attention_heads_decoder = 8
 # Dropout value for the optimizer
 dropout_rate = 0.1
-# Drouput value for the optimizer
+# Label smoothing value for the optimizer
 label_smoothing = 0.0
 # Set "GRU" or "LSTM" for recurrent attention weights. Else set False
 recurrent_attention = False
