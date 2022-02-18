@@ -32,7 +32,7 @@ val_examples = []
 test_examples = []
 
 # Select the dataset to be used for training
-pathfile = "./Jobs640/Jobs640Train.txt"
+pathfile = "./geoqueries/train.json"
 if(".json" in pathfile):
     for line in open(pathfile,'r'):
         line = line.replace("_","~")
@@ -48,7 +48,7 @@ else:
         train_examples.append((tf.constant(x[0]),tf.constant(x[1])))
 
 # Select the dataset to be used for testing
-pathfile = "./Jobs640/Jobs640Test.txt"
+pathfile = "./geoqueries/test.json"
 if(".json" in pathfile):
     for line in open(pathfile,'r'):
         line = line.replace("_","~")
