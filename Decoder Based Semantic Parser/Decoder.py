@@ -1,4 +1,4 @@
-## Original Code From https://github.com/tensorflow/docs/blob/master/site/en/tutorials/text/transformer.ipynb
+## Original Code From https://colab.research.google.com/github/dlmacedo/starter-academic/blob/master/content/courses/deeplearning/notebooks/tensorflow/transformer.ipynb
 
 ##Copyright 2019 The TensorFlow Authors.
 #@title Licensed under the Apache License, Version 2.0 (the "License");
