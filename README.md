@@ -8,7 +8,9 @@ Modifications to the code include:
     
     Dropping the Encoder to make it a Decoder-only mechanism.
     
-    Added options to use recurrent weights (GRU and LSTM) for the attention weights and/or the hidden layer weights.
+    Added options to use recurrent weights (GRU and LSTM) for the attention weights and/or the hidden layer weights as well as an option to use label smoothing.
     
     An evaluator for the whole dataset that creates .txt files containing the accuracy, the shuffled train and test sets, and a list of the correct and wrong parses 
     the engine produced.
+
+Simply change the pathfiles to the dataset you would like to use in the file and set the hyperparameters you would like to use.
